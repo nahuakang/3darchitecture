@@ -1,3 +1,54 @@
-[gd_scene format=3 uid="uid://dd5n5b1krrxfl"]
+[gd_scene load_steps=6 format=3 uid="uid://dd5n5b1krrxfl"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_o1ap8"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_bwon2"]
+size = Vector2(10, 10)
+
+[sub_resource type="BoxMesh" id="BoxMesh_6r43e"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ok4ej"]
+radius = 0.3
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_qsxia"]
+radius = 0.3
 
 [node name="Main" type="Node3D"]
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_bwon2")
+
+[node name="ComparisonCube" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.509412, 0)
+mesh = SubResource("BoxMesh_6r43e")
+
+[node name="Player" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.02789, 0.988159, 0)
+script = ExtResource("1_o1ap8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
+shape = SubResource("CapsuleShape3D_ok4ej")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player"]
+mesh = SubResource("CapsuleMesh_qsxia")
+
+[node name="Camera3D" type="Camera3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.642319, 0)
+current = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Crosshair" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -4.0
+offset_right = -12.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
