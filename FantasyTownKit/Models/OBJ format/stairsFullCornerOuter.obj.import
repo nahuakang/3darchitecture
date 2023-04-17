@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cec4hddxuomyd"
+path="res://.godot/imported/stairsFullCornerOuter.obj-5783aa8d824d303bc784f8a762a3efe3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stairsFullCornerOuter.obj-5783aa8d824d303bc784f8a762a3efe3.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/stairsFullCornerOuter.obj"
+dest_files=["res://.godot/imported/stairsFullCornerOuter.obj-5783aa8d824d303bc784f8a762a3efe3.mesh", "res://.godot/imported/stairsFullCornerOuter.obj-5783aa8d824d303bc784f8a762a3efe3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

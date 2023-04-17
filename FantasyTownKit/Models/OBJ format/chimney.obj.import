@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://tfvike68f7o3"
+path="res://.godot/imported/chimney.obj-3aa74f6b375361c47d62aa72b31d008c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chimney.obj-3aa74f6b375361c47d62aa72b31d008c.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/chimney.obj"
+dest_files=["res://.godot/imported/chimney.obj-3aa74f6b375361c47d62aa72b31d008c.mesh", "res://.godot/imported/chimney.obj-3aa74f6b375361c47d62aa72b31d008c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

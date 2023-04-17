@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cigyeegyvl6tq"
+path="res://.godot/imported/cupThea.obj-a7e71fdf66f46dd293baa94245efdb9d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cupThea.obj-a7e71fdf66f46dd293baa94245efdb9d.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/cupThea.obj"
+dest_files=["res://.godot/imported/cupThea.obj-a7e71fdf66f46dd293baa94245efdb9d.mesh", "res://.godot/imported/cupThea.obj-a7e71fdf66f46dd293baa94245efdb9d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

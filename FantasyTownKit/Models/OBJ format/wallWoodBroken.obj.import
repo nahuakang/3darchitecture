@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bocf8nc8ndjsp"
+path="res://.godot/imported/wallWoodBroken.obj-9b41a371c2395cfe68400d5ad2ab537d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWoodBroken.obj-9b41a371c2395cfe68400d5ad2ab537d.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/wallWoodBroken.obj"
+dest_files=["res://.godot/imported/wallWoodBroken.obj-9b41a371c2395cfe68400d5ad2ab537d.mesh", "res://.godot/imported/wallWoodBroken.obj-9b41a371c2395cfe68400d5ad2ab537d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

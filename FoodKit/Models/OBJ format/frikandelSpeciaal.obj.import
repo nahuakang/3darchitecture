@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b1wo2v6pn4r4l"
+path="res://.godot/imported/frikandelSpeciaal.obj-9455bd2f318bbc1d5748b10e26d9f839.mesh"
+
+[deps]
+
+files=["res://.godot/imported/frikandelSpeciaal.obj-9455bd2f318bbc1d5748b10e26d9f839.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/frikandelSpeciaal.obj"
+dest_files=["res://.godot/imported/frikandelSpeciaal.obj-9455bd2f318bbc1d5748b10e26d9f839.mesh", "res://.godot/imported/frikandelSpeciaal.obj-9455bd2f318bbc1d5748b10e26d9f839.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

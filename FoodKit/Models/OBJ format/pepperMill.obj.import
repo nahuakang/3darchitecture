@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://t84btfsmspps"
+path="res://.godot/imported/pepperMill.obj-45639bcb34681599261e8aa9050c3367.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pepperMill.obj-45639bcb34681599261e8aa9050c3367.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/pepperMill.obj"
+dest_files=["res://.godot/imported/pepperMill.obj-45639bcb34681599261e8aa9050c3367.mesh", "res://.godot/imported/pepperMill.obj-45639bcb34681599261e8aa9050c3367.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

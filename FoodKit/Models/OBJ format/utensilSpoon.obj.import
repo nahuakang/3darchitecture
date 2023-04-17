@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://s28t11wq7kiw"
+path="res://.godot/imported/utensilSpoon.obj-93744dddb466f28f02c63533981c32dd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/utensilSpoon.obj-93744dddb466f28f02c63533981c32dd.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/utensilSpoon.obj"
+dest_files=["res://.godot/imported/utensilSpoon.obj-93744dddb466f28f02c63533981c32dd.mesh", "res://.godot/imported/utensilSpoon.obj-93744dddb466f28f02c63533981c32dd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

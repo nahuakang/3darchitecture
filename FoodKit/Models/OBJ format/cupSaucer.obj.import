@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0dgxs4gul4pk"
+path="res://.godot/imported/cupSaucer.obj-7e0e1f4bb455b82027f1f174400ae6ea.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cupSaucer.obj-7e0e1f4bb455b82027f1f174400ae6ea.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/cupSaucer.obj"
+dest_files=["res://.godot/imported/cupSaucer.obj-7e0e1f4bb455b82027f1f174400ae6ea.mesh", "res://.godot/imported/cupSaucer.obj-7e0e1f4bb455b82027f1f174400ae6ea.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

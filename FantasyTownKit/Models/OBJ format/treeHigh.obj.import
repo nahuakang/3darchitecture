@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cnv3gkm3lbjfj"
+path="res://.godot/imported/treeHigh.obj-50367b7bc856451af5a3b313a43950da.mesh"
+
+[deps]
+
+files=["res://.godot/imported/treeHigh.obj-50367b7bc856451af5a3b313a43950da.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/treeHigh.obj"
+dest_files=["res://.godot/imported/treeHigh.obj-50367b7bc856451af5a3b313a43950da.mesh", "res://.godot/imported/treeHigh.obj-50367b7bc856451af5a3b313a43950da.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

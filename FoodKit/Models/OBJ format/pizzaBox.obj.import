@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bbip5alyo0ob2"
+path="res://.godot/imported/pizzaBox.obj-b17b448816d43f74b15e57494aea69bd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pizzaBox.obj-b17b448816d43f74b15e57494aea69bd.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/pizzaBox.obj"
+dest_files=["res://.godot/imported/pizzaBox.obj-b17b448816d43f74b15e57494aea69bd.mesh", "res://.godot/imported/pizzaBox.obj-b17b448816d43f74b15e57494aea69bd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

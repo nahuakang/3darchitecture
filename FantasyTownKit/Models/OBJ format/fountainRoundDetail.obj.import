@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbilfsetkrslb"
+path="res://.godot/imported/fountainRoundDetail.obj-58d5b9b542a1588e4c4dfb181e4b1321.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fountainRoundDetail.obj-58d5b9b542a1588e4c4dfb181e4b1321.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/fountainRoundDetail.obj"
+dest_files=["res://.godot/imported/fountainRoundDetail.obj-58d5b9b542a1588e4c4dfb181e4b1321.mesh", "res://.godot/imported/fountainRoundDetail.obj-58d5b9b542a1588e4c4dfb181e4b1321.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

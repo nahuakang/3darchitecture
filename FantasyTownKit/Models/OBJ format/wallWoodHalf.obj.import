@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yeheuksk338j"
+path="res://.godot/imported/wallWoodHalf.obj-dbfc4a1c9510995a9c29bb848ce6ea1e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWoodHalf.obj-dbfc4a1c9510995a9c29bb848ce6ea1e.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/wallWoodHalf.obj"
+dest_files=["res://.godot/imported/wallWoodHalf.obj-dbfc4a1c9510995a9c29bb848ce6ea1e.mesh", "res://.godot/imported/wallWoodHalf.obj-dbfc4a1c9510995a9c29bb848ce6ea1e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

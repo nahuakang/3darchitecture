@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ccc4j38co06uk"
+path="res://.godot/imported/stallRed.obj-01d9f0b1e46d690edfa51e44d84ca328.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stallRed.obj-01d9f0b1e46d690edfa51e44d84ca328.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/stallRed.obj"
+dest_files=["res://.godot/imported/stallRed.obj-01d9f0b1e46d690edfa51e44d84ca328.mesh", "res://.godot/imported/stallRed.obj-01d9f0b1e46d690edfa51e44d84ca328.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

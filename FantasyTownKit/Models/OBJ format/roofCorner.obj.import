@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dxf7xsa01g24o"
+path="res://.godot/imported/roofCorner.obj-d2e1ca1018539ca86c83c819172b8fdc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roofCorner.obj-d2e1ca1018539ca86c83c819172b8fdc.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/roofCorner.obj"
+dest_files=["res://.godot/imported/roofCorner.obj-d2e1ca1018539ca86c83c819172b8fdc.mesh", "res://.godot/imported/roofCorner.obj-d2e1ca1018539ca86c83c819172b8fdc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

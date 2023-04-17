@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dyckb2uh372ls"
+path="res://.godot/imported/shakerSalt.obj-13531341033f39cc59b3faaa886fddbd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/shakerSalt.obj-13531341033f39cc59b3faaa886fddbd.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/shakerSalt.obj"
+dest_files=["res://.godot/imported/shakerSalt.obj-13531341033f39cc59b3faaa886fddbd.mesh", "res://.godot/imported/shakerSalt.obj-13531341033f39cc59b3faaa886fddbd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

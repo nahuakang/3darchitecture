@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcy78jy3bo5wl"
+path="res://.godot/imported/pillarStone.obj-18e8f317766313b1e1e8dd374362da29.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pillarStone.obj-18e8f317766313b1e1e8dd374362da29.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/pillarStone.obj"
+dest_files=["res://.godot/imported/pillarStone.obj-18e8f317766313b1e1e8dd374362da29.mesh", "res://.godot/imported/pillarStone.obj-18e8f317766313b1e1e8dd374362da29.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

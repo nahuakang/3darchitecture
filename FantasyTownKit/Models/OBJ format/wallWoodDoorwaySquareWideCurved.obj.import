@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dcdbkrtbt5xe8"
+path="res://.godot/imported/wallWoodDoorwaySquareWideCurved.obj-e85dadbb35dceb550c83790d4aeb98a1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWoodDoorwaySquareWideCurved.obj-e85dadbb35dceb550c83790d4aeb98a1.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/wallWoodDoorwaySquareWideCurved.obj"
+dest_files=["res://.godot/imported/wallWoodDoorwaySquareWideCurved.obj-e85dadbb35dceb550c83790d4aeb98a1.mesh", "res://.godot/imported/wallWoodDoorwaySquareWideCurved.obj-e85dadbb35dceb550c83790d4aeb98a1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

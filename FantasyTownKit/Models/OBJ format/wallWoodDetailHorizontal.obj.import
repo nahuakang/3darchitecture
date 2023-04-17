@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://trihax4gy3yd"
+path="res://.godot/imported/wallWoodDetailHorizontal.obj-d98d278be1fcf442c6326406fce8c112.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWoodDetailHorizontal.obj-d98d278be1fcf442c6326406fce8c112.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/wallWoodDetailHorizontal.obj"
+dest_files=["res://.godot/imported/wallWoodDetailHorizontal.obj-d98d278be1fcf442c6326406fce8c112.mesh", "res://.godot/imported/wallWoodDetailHorizontal.obj-d98d278be1fcf442c6326406fce8c112.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

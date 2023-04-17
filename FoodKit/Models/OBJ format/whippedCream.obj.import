@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://blrsgw5w46qp2"
+path="res://.godot/imported/whippedCream.obj-649b2c981b20d637d73a3b93f98d5976.mesh"
+
+[deps]
+
+files=["res://.godot/imported/whippedCream.obj-649b2c981b20d637d73a3b93f98d5976.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/whippedCream.obj"
+dest_files=["res://.godot/imported/whippedCream.obj-649b2c981b20d637d73a3b93f98d5976.mesh", "res://.godot/imported/whippedCream.obj-649b2c981b20d637d73a3b93f98d5976.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

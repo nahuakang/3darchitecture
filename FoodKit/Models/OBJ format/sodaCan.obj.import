@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://0ohtupdsch6c"
+path="res://.godot/imported/sodaCan.obj-3ccf6a147a4b83eb5080dc3a01f3f881.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sodaCan.obj-3ccf6a147a4b83eb5080dc3a01f3f881.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/sodaCan.obj"
+dest_files=["res://.godot/imported/sodaCan.obj-3ccf6a147a4b83eb5080dc3a01f3f881.mesh", "res://.godot/imported/sodaCan.obj-3ccf6a147a4b83eb5080dc3a01f3f881.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

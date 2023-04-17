@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dd1wgym8kbipj"
+path="res://.godot/imported/roadEdge.obj-dc794ac9d31cb0c4c1f88fe26432175f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roadEdge.obj-dc794ac9d31cb0c4c1f88fe26432175f.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/roadEdge.obj"
+dest_files=["res://.godot/imported/roadEdge.obj-dc794ac9d31cb0c4c1f88fe26432175f.mesh", "res://.godot/imported/roadEdge.obj-dc794ac9d31cb0c4c1f88fe26432175f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

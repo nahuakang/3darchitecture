@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://3t1sw67hyg4v"
+path="res://.godot/imported/cheeseSlicer.obj-6508f8055bbe16db7cc95c050ce7e3cd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cheeseSlicer.obj-6508f8055bbe16db7cc95c050ce7e3cd.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/cheeseSlicer.obj"
+dest_files=["res://.godot/imported/cheeseSlicer.obj-6508f8055bbe16db7cc95c050ce7e3cd.mesh", "res://.godot/imported/cheeseSlicer.obj-6508f8055bbe16db7cc95c050ce7e3cd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

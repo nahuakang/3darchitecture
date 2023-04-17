@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b60iv56mr7r70"
+path="res://.godot/imported/fenceCurved.obj-376d469d1adc1b26c8e7565249fd1606.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fenceCurved.obj-376d469d1adc1b26c8e7565249fd1606.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/fenceCurved.obj"
+dest_files=["res://.godot/imported/fenceCurved.obj-376d469d1adc1b26c8e7565249fd1606.mesh", "res://.godot/imported/fenceCurved.obj-376d469d1adc1b26c8e7565249fd1606.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

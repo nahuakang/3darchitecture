@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgfceissqd10k"
+path="res://.godot/imported/cookie.obj-30f5574e1e0b2074c47738349678789f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cookie.obj-30f5574e1e0b2074c47738349678789f.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/cookie.obj"
+dest_files=["res://.godot/imported/cookie.obj-30f5574e1e0b2074c47738349678789f.mesh", "res://.godot/imported/cookie.obj-30f5574e1e0b2074c47738349678789f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

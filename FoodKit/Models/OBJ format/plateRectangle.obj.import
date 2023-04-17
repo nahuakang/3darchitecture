@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d23w8tjg26rja"
+path="res://.godot/imported/plateRectangle.obj-b4e704c0f4f629a8a589db8c79db80e8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plateRectangle.obj-b4e704c0f4f629a8a589db8c79db80e8.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/plateRectangle.obj"
+dest_files=["res://.godot/imported/plateRectangle.obj-b4e704c0f4f629a8a589db8c79db80e8.mesh", "res://.godot/imported/plateRectangle.obj-b4e704c0f4f629a8a589db8c79db80e8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

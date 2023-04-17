@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6ym5w80tw4vv"
+path="res://.godot/imported/wallArchTop.obj-fc2829d21644b8fb7ced1ca72da799cd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallArchTop.obj-fc2829d21644b8fb7ced1ca72da799cd.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/wallArchTop.obj"
+dest_files=["res://.godot/imported/wallArchTop.obj-fc2829d21644b8fb7ced1ca72da799cd.mesh", "res://.godot/imported/wallArchTop.obj-fc2829d21644b8fb7ced1ca72da799cd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

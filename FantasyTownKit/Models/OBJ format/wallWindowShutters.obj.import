@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cwbkp2ndhsgcf"
+path="res://.godot/imported/wallWindowShutters.obj-0e699f6de19bee465fcf65a6f761b948.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallWindowShutters.obj-0e699f6de19bee465fcf65a6f761b948.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/wallWindowShutters.obj"
+dest_files=["res://.godot/imported/wallWindowShutters.obj-0e699f6de19bee465fcf65a6f761b948.mesh", "res://.godot/imported/wallWindowShutters.obj-0e699f6de19bee465fcf65a6f761b948.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

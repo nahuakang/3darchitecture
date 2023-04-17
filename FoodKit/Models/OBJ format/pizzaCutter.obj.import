@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cks647cxhxspr"
+path="res://.godot/imported/pizzaCutter.obj-633aa7c508b35dba44535e4b81ec1f3c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pizzaCutter.obj-633aa7c508b35dba44535e4b81ec1f3c.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/pizzaCutter.obj"
+dest_files=["res://.godot/imported/pizzaCutter.obj-633aa7c508b35dba44535e4b81ec1f3c.mesh", "res://.godot/imported/pizzaCutter.obj-633aa7c508b35dba44535e4b81ec1f3c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

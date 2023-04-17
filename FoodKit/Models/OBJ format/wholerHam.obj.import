@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cpreooadptqv5"
+path="res://.godot/imported/wholerHam.obj-79d4419e03207f70f35fbdf56ab7510b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wholerHam.obj-79d4419e03207f70f35fbdf56ab7510b.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/wholerHam.obj"
+dest_files=["res://.godot/imported/wholerHam.obj-79d4419e03207f70f35fbdf56ab7510b.mesh", "res://.godot/imported/wholerHam.obj-79d4419e03207f70f35fbdf56ab7510b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://behyvq1ludqrt"
+path="res://.godot/imported/avocadoHalf.obj-cd9a4f41b11e36fd8ff398c1155450b4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/avocadoHalf.obj-cd9a4f41b11e36fd8ff398c1155450b4.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/avocadoHalf.obj"
+dest_files=["res://.godot/imported/avocadoHalf.obj-cd9a4f41b11e36fd8ff398c1155450b4.mesh", "res://.godot/imported/avocadoHalf.obj-cd9a4f41b11e36fd8ff398c1155450b4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

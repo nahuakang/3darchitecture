@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2r0cl75sh014"
+path="res://.godot/imported/wallDoorwayRound.obj-eb6e6a6516aa4fdb1fcc95ed580964b7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallDoorwayRound.obj-eb6e6a6516aa4fdb1fcc95ed580964b7.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/wallDoorwayRound.obj"
+dest_files=["res://.godot/imported/wallDoorwayRound.obj-eb6e6a6516aa4fdb1fcc95ed580964b7.mesh", "res://.godot/imported/wallDoorwayRound.obj-eb6e6a6516aa4fdb1fcc95ed580964b7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

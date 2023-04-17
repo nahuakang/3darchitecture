@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbbw27mm3vxnq"
+path="res://.godot/imported/donut.obj-f9efefe69066018ea673e5bb47b16785.mesh"
+
+[deps]
+
+files=["res://.godot/imported/donut.obj-f9efefe69066018ea673e5bb47b16785.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/donut.obj"
+dest_files=["res://.godot/imported/donut.obj-f9efefe69066018ea673e5bb47b16785.mesh", "res://.godot/imported/donut.obj-f9efefe69066018ea673e5bb47b16785.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

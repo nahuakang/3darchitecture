@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bxom44m4lfthd"
+path="res://.godot/imported/stairsWideWoodHandrail.obj-e58325bf07d41a08de45ddd07d4e441d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stairsWideWoodHandrail.obj-e58325bf07d41a08de45ddd07d4e441d.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/stairsWideWoodHandrail.obj"
+dest_files=["res://.godot/imported/stairsWideWoodHandrail.obj-e58325bf07d41a08de45ddd07d4e441d.mesh", "res://.godot/imported/stairsWideWoodHandrail.obj-e58325bf07d41a08de45ddd07d4e441d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

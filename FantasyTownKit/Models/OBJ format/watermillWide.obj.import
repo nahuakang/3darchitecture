@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cs0vn1hve26e5"
+path="res://.godot/imported/watermillWide.obj-8e9c20c1729afb80642d979f833ea126.mesh"
+
+[deps]
+
+files=["res://.godot/imported/watermillWide.obj-8e9c20c1729afb80642d979f833ea126.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/watermillWide.obj"
+dest_files=["res://.godot/imported/watermillWide.obj-8e9c20c1729afb80642d979f833ea126.mesh", "res://.godot/imported/watermillWide.obj-8e9c20c1729afb80642d979f833ea126.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

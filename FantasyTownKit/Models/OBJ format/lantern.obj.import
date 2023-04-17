@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cuaeo0xibdlpi"
+path="res://.godot/imported/lantern.obj-a7f491bcbd61dbecb9104935ba5981e3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lantern.obj-a7f491bcbd61dbecb9104935ba5981e3.mesh"]
+
+source_file="res://FantasyTownKit/Models/OBJ format/lantern.obj"
+dest_files=["res://.godot/imported/lantern.obj-a7f491bcbd61dbecb9104935ba5981e3.mesh", "res://.godot/imported/lantern.obj-a7f491bcbd61dbecb9104935ba5981e3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

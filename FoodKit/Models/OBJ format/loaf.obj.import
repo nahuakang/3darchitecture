@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://com6twq3n5nly"
+path="res://.godot/imported/loaf.obj-f9e85d7c5a1a22b2cc2b183694342d36.mesh"
+
+[deps]
+
+files=["res://.godot/imported/loaf.obj-f9e85d7c5a1a22b2cc2b183694342d36.mesh"]
+
+source_file="res://FoodKit/Models/OBJ format/loaf.obj"
+dest_files=["res://.godot/imported/loaf.obj-f9e85d7c5a1a22b2cc2b183694342d36.mesh", "res://.godot/imported/loaf.obj-f9e85d7c5a1a22b2cc2b183694342d36.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
