@@ -19,11 +19,11 @@ radius = 0.3
 mesh = SubResource("PlaneMesh_bwon2")
 
 [node name="ComparisonCube" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.509412, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.96962, 0.509412, 0)
 mesh = SubResource("BoxMesh_6r43e")
 
 [node name="Player" type="CharacterBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.02789, 0.988159, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.726445, 0.988159, 0)
 script = ExtResource("1_o1ap8")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
