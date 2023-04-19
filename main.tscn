@@ -1,14 +1,15 @@
-[gd_scene load_steps=7 format=3 uid="uid://dd5n5b1krrxfl"]
+[gd_scene load_steps=9 format=3 uid="uid://dd5n5b1krrxfl"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_o1ap8"]
+[ext_resource type="PackedScene" uid="uid://bp1x8t1577feb" path="res://FantasyTownKit/Models/stallRed.glb" id="2_gjbpa"]
+[ext_resource type="PackedScene" uid="uid://cblx604tmf555" path="res://FoodKit/Models/apple.glb" id="3_emm63"]
+[ext_resource type="PackedScene" uid="uid://dxh4jhpxiwgg8" path="res://FoodKit/Models/avocado.glb" id="4_4gq7x"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_bwon2"]
 size = Vector2(10, 10)
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_k50cs"]
 data = PackedVector3Array(5, 0, 5, -5, 0, 5, 5, 0, -5, -5, 0, 5, -5, 0, -5, 5, 0, -5)
-
-[sub_resource type="BoxMesh" id="BoxMesh_6r43e"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ok4ej"]
 radius = 0.3
@@ -26,12 +27,8 @@ mesh = SubResource("PlaneMesh_bwon2")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_k50cs")
 
-[node name="ComparisonCube" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.96962, 0.509412, 0)
-mesh = SubResource("BoxMesh_6r43e")
-
 [node name="Player" type="CharacterBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.726445, 1.09196, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.726445, 1.09196, 1.60009)
 script = ExtResource("1_o1ap8")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
@@ -60,3 +57,14 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+
+[node name="stallRed" parent="." instance=ExtResource("2_gjbpa")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.59279, 0, -1.61077)
+
+[node name="apple" parent="." instance=ExtResource("3_emm63")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.27337, 0.8224, -1.42407)
+
+[node name="avocado" parent="." instance=ExtResource("4_4gq7x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.61118, 0.8224, -1.37969)
+
+[editable path="stallRed"]
