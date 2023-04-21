@@ -1,7 +1,9 @@
-[gd_scene load_steps=12 format=3 uid="uid://dd5n5b1krrxfl"]
+[gd_scene load_steps=15 format=3 uid="uid://dd5n5b1krrxfl"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_o1ap8"]
+[ext_resource type="Texture2D" uid="uid://crgxjhkql7v2n" path="res://BlockCharacters/Faces/face_adventurer.png" id="2_3wyw2"]
 [ext_resource type="PackedScene" uid="uid://bp1x8t1577feb" path="res://FantasyTownKit/Models/stallRed.glb" id="2_gjbpa"]
+[ext_resource type="FontFile" uid="uid://cms5303v0rjh3" path="res://PoetsenOne-Regular.ttf" id="3_4ee5j"]
 [ext_resource type="PackedScene" uid="uid://cblx604tmf555" path="res://FoodKit/Models/apple.glb" id="3_emm63"]
 [ext_resource type="PackedScene" uid="uid://dxh4jhpxiwgg8" path="res://FoodKit/Models/avocado.glb" id="4_4gq7x"]
 [ext_resource type="PackedScene" uid="uid://d03xkgllxoime" path="res://BlockCharacters/Models/Non-rigged/glTF/advancedCharacter.gltf" id="5_l6dvs"]
@@ -18,6 +20,9 @@ radius = 0.3
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_qsxia"]
 radius = 0.3
+
+[sub_resource type="FontVariation" id="FontVariation_hgcan"]
+base_font = ExtResource("3_4ee5j")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8e3ox"]
 albedo_texture = ExtResource("6_sb6na")
@@ -62,6 +67,58 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+
+[node name="DialogUI" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+grow_vertical = 0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/DialogUI"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -128.0
+offset_right = 1148.0
+grow_vertical = 0
+
+[node name="Avatar" type="TextureRect" parent="CanvasLayer/DialogUI/HBoxContainer"]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+texture = ExtResource("2_3wyw2")
+expand_mode = 1
+
+[node name="TextBackground" type="ColorRect" parent="CanvasLayer/DialogUI/HBoxContainer"]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/DialogUI/HBoxContainer/TextBackground"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 15
+
+[node name="DialogText" type="Label" parent="CanvasLayer/DialogUI/HBoxContainer/TextBackground/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_hgcan")
+theme_override_font_sizes/font_size = 20
+text = "Sample dialogue text"
+vertical_alignment = 1
+autowrap_mode = 2
 
 [node name="stallRed" parent="." instance=ExtResource("2_gjbpa")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.59279, 0, -1.61077)
