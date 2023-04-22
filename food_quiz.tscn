@@ -1,0 +1,59 @@
+[gd_scene load_steps=9 format=3 uid="uid://f3sv1abwp1ln"]
+
+[ext_resource type="Script" path="res://food_quiz.gd" id="1_cm7jp"]
+[ext_resource type="PackedScene" uid="uid://d03xkgllxoime" path="res://BlockCharacters/Models/Non-rigged/glTF/advancedCharacter.gltf" id="1_ygr1a"]
+[ext_resource type="Texture2D" uid="uid://dg2h3802r41h8" path="res://BlockCharacters/Skins/Advanced/skin_adventurer.png" id="2_fdfg5"]
+[ext_resource type="PackedScene" uid="uid://dxh4jhpxiwgg8" path="res://FoodKit/Models/avocado.glb" id="3_ms6fc"]
+[ext_resource type="PackedScene" uid="uid://cblx604tmf555" path="res://FoodKit/Models/apple.glb" id="4_fbr0a"]
+[ext_resource type="PackedScene" uid="uid://bp1x8t1577feb" path="res://FantasyTownKit/Models/stallRed.glb" id="5_0g6qv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8aony"]
+albedo_texture = ExtResource("2_fdfg5")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tw430"]
+size = Vector3(1, 0.435113, 0.547272)
+
+[node name="FoodQuiz" type="Node3D" node_paths=PackedStringArray("adventurer_npc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.97314, 0, -1.61077)
+script = ExtResource("1_cm7jp")
+adventurer_npc = NodePath("AdventurerNPC")
+adventurer_npc_texture = ExtResource("2_fdfg5")
+
+[node name="AdventurerNPC" parent="." instance=ExtResource("1_ygr1a")]
+transform = Transform3D(0.825626, 0, 0.564218, 0, 1, 0, -0.564218, 0, 0.825626, -1.97783, -4.76837e-07, 0.47273)
+
+[node name="Body1" parent="AdventurerNPC" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_8aony")
+
+[node name="Head1" parent="AdventurerNPC" index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_8aony")
+
+[node name="ArmLeft1" parent="AdventurerNPC" index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_8aony")
+
+[node name="ArmRight1" parent="AdventurerNPC" index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_8aony")
+
+[node name="LegLeft1" parent="AdventurerNPC" index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_8aony")
+
+[node name="LegRight1" parent="AdventurerNPC" index="5"]
+surface_material_override/0 = SubResource("StandardMaterial3D_8aony")
+
+[node name="avocado" parent="." instance=ExtResource("3_ms6fc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0183899, 0.8224, 0.23108)
+
+[node name="apple" parent="." instance=ExtResource("4_fbr0a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.31942, 0.8224, 0.1867)
+
+[node name="stallRed" parent="." instance=ExtResource("5_0g6qv")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+
+[node name="DialogTrigger" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DialogTrigger"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.440631, 1.04957)
+shape = SubResource("BoxShape3D_tw430")
+
+[editable path="AdventurerNPC"]
+[editable path="stallRed"]

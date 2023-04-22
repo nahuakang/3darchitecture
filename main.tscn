@@ -1,15 +1,12 @@
-[gd_scene load_steps=17 format=3 uid="uid://dd5n5b1krrxfl"]
+[gd_scene load_steps=13 format=3 uid="uid://dd5n5b1krrxfl"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_o1ap8"]
 [ext_resource type="Texture2D" uid="uid://crgxjhkql7v2n" path="res://BlockCharacters/Faces/face_adventurer.png" id="2_3wyw2"]
 [ext_resource type="Script" path="res://dialogue_manager.gd" id="2_028ve"]
-[ext_resource type="PackedScene" uid="uid://bp1x8t1577feb" path="res://FantasyTownKit/Models/stallRed.glb" id="2_gjbpa"]
 [ext_resource type="FontFile" uid="uid://cms5303v0rjh3" path="res://PoetsenOne-Regular.ttf" id="3_4ee5j"]
-[ext_resource type="PackedScene" uid="uid://cblx604tmf555" path="res://FoodKit/Models/apple.glb" id="3_emm63"]
 [ext_resource type="Resource" uid="uid://dk1kivws61pb4" path="res://Dialogues/intro.tres" id="3_gjhhe"]
-[ext_resource type="PackedScene" uid="uid://dxh4jhpxiwgg8" path="res://FoodKit/Models/avocado.glb" id="4_4gq7x"]
-[ext_resource type="PackedScene" uid="uid://d03xkgllxoime" path="res://BlockCharacters/Models/Non-rigged/glTF/advancedCharacter.gltf" id="5_l6dvs"]
-[ext_resource type="Texture2D" uid="uid://dg2h3802r41h8" path="res://BlockCharacters/Skins/Advanced/skin_adventurer.png" id="6_sb6na"]
+[ext_resource type="PackedScene" uid="uid://f3sv1abwp1ln" path="res://food_quiz.tscn" id="6_3ajlw"]
+[ext_resource type="Texture2D" uid="uid://7mxyjgif7iny" path="res://BlockCharacters/Skins/Advanced/skin_man.png" id="7_oxvk3"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_bwon2"]
 size = Vector2(10, 10)
@@ -26,9 +23,6 @@ radius = 0.3
 [sub_resource type="FontVariation" id="FontVariation_hgcan"]
 base_font = ExtResource("3_4ee5j")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8e3ox"]
-albedo_texture = ExtResource("6_sb6na")
-
 [node name="Main" type="Node3D"]
 
 [node name="Ground" type="MeshInstance3D" parent="."]
@@ -40,7 +34,7 @@ mesh = SubResource("PlaneMesh_bwon2")
 shape = SubResource("ConcavePolygonShape3D_k50cs")
 
 [node name="Player" type="CharacterBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.726445, 1.09196, 1.60009)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8605, 1.09196, 1.60009)
 script = ExtResource("1_o1ap8")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
@@ -126,39 +120,13 @@ text = "Sample dialogue text"
 vertical_alignment = 1
 autowrap_mode = 2
 
-[node name="stallRed" parent="." instance=ExtResource("2_gjbpa")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.59279, 0, -1.61077)
-
-[node name="apple" parent="." instance=ExtResource("3_emm63")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.27337, 0.8224, -1.42407)
-
-[node name="avocado" parent="." instance=ExtResource("4_4gq7x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.61118, 0.8224, -1.37969)
-
-[node name="AdventurerNPC" parent="." instance=ExtResource("5_l6dvs")]
-transform = Transform3D(0.825626, 0, 0.564218, 0, 1, 0, -0.564218, 0, 0.825626, -0.385041, -4.76837e-07, -1.13804)
-
-[node name="Body1" parent="AdventurerNPC" index="0"]
-surface_material_override/0 = SubResource("StandardMaterial3D_8e3ox")
-
-[node name="Head1" parent="AdventurerNPC" index="1"]
-surface_material_override/0 = SubResource("StandardMaterial3D_8e3ox")
-
-[node name="ArmLeft1" parent="AdventurerNPC" index="2"]
-surface_material_override/0 = SubResource("StandardMaterial3D_8e3ox")
-
-[node name="ArmRight1" parent="AdventurerNPC" index="3"]
-surface_material_override/0 = SubResource("StandardMaterial3D_8e3ox")
-
-[node name="LegLeft1" parent="AdventurerNPC" index="4"]
-surface_material_override/0 = SubResource("StandardMaterial3D_8e3ox")
-
-[node name="LegRight1" parent="AdventurerNPC" index="5"]
-surface_material_override/0 = SubResource("StandardMaterial3D_8e3ox")
-
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.906256, 0.422729, 0, -0.422729, 0.906256, 0, 5.26608, 8.56439)
 shadow_enabled = true
 
-[editable path="stallRed"]
-[editable path="AdventurerNPC"]
+[node name="FoodQuiz" parent="." instance=ExtResource("6_3ajlw")]
+adventurer_npc_texture = ExtResource("7_oxvk3")
+
+[editable path="FoodQuiz"]
+[editable path="FoodQuiz/AdventurerNPC"]
+[editable path="FoodQuiz/stallRed"]
