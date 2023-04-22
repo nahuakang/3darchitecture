@@ -1,10 +1,12 @@
-[gd_scene load_steps=15 format=3 uid="uid://dd5n5b1krrxfl"]
+[gd_scene load_steps=17 format=3 uid="uid://dd5n5b1krrxfl"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_o1ap8"]
 [ext_resource type="Texture2D" uid="uid://crgxjhkql7v2n" path="res://BlockCharacters/Faces/face_adventurer.png" id="2_3wyw2"]
+[ext_resource type="Script" path="res://dialogue_manager.gd" id="2_028ve"]
 [ext_resource type="PackedScene" uid="uid://bp1x8t1577feb" path="res://FantasyTownKit/Models/stallRed.glb" id="2_gjbpa"]
 [ext_resource type="FontFile" uid="uid://cms5303v0rjh3" path="res://PoetsenOne-Regular.ttf" id="3_4ee5j"]
 [ext_resource type="PackedScene" uid="uid://cblx604tmf555" path="res://FoodKit/Models/apple.glb" id="3_emm63"]
+[ext_resource type="Resource" uid="uid://dk1kivws61pb4" path="res://Dialogues/intro.tres" id="3_gjhhe"]
 [ext_resource type="PackedScene" uid="uid://dxh4jhpxiwgg8" path="res://FoodKit/Models/avocado.glb" id="4_4gq7x"]
 [ext_resource type="PackedScene" uid="uid://d03xkgllxoime" path="res://BlockCharacters/Models/Non-rigged/glTF/advancedCharacter.gltf" id="5_l6dvs"]
 [ext_resource type="Texture2D" uid="uid://dg2h3802r41h8" path="res://BlockCharacters/Skins/Advanced/skin_adventurer.png" id="6_sb6na"]
@@ -68,7 +70,7 @@ grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 
-[node name="DialogUI" type="Control" parent="CanvasLayer"]
+[node name="DialogUI" type="Control" parent="CanvasLayer" node_paths=PackedStringArray("_dialog_text", "_avatar")]
 layout_mode = 3
 anchors_preset = 2
 anchor_top = 1.0
@@ -76,6 +78,10 @@ anchor_bottom = 1.0
 grow_vertical = 0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+script = ExtResource("2_028ve")
+_dialog_text = NodePath("HBoxContainer/TextBackground/MarginContainer/DialogText")
+_avatar = NodePath("HBoxContainer/Avatar")
+_current_dialogue = ExtResource("3_gjhhe")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/DialogUI"]
 layout_mode = 1
