@@ -12,6 +12,8 @@ func _ready() -> void:
 	_avatar.texture = _current_dialogue.avatar_texture
 	show_slide()
 
+	GameEvents.dialog_initiated.connect(_on_dialog_initiated)
+
 
 func _input(event: InputEvent) -> void:
 	if Input.is_action_just_pressed("advance_slide"):
@@ -24,3 +26,7 @@ func _input(event: InputEvent) -> void:
 
 func show_slide() -> void:
 	_dialog_text.text = _current_dialogue.dialogue_slides[_current_slide_index]
+
+
+func _on_dialog_initiated() -> void:
+	print("Dialog initiated")

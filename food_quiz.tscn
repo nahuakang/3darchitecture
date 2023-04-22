@@ -11,13 +11,13 @@
 albedo_texture = ExtResource("2_fdfg5")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_tw430"]
-size = Vector3(1, 0.435113, 0.547272)
+size = Vector3(1, 0.435113, 0.337732)
 
-[node name="FoodQuiz" type="Node3D" node_paths=PackedStringArray("adventurer_npc")]
+[node name="FoodQuiz" type="Node3D" node_paths=PackedStringArray("_adventurer_npc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.97314, 0, -1.61077)
 script = ExtResource("1_cm7jp")
-adventurer_npc = NodePath("AdventurerNPC")
-adventurer_npc_texture = ExtResource("2_fdfg5")
+_adventurer_npc = NodePath("AdventurerNPC")
+_adventurer_npc_texture = ExtResource("2_fdfg5")
 
 [node name="AdventurerNPC" parent="." instance=ExtResource("1_ygr1a")]
 transform = Transform3D(0.825626, 0, 0.564218, 0, 1, 0, -0.564218, 0, 0.825626, -1.97783, -4.76837e-07, 0.47273)
@@ -52,8 +52,10 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 
 [node name="DialogTrigger" type="Area3D" parent="."]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="DialogTrigger"]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.440631, 1.04957)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.440631, 1.08866)
 shape = SubResource("BoxShape3D_tw430")
+
+[connection signal="body_entered" from="DialogTrigger" to="." method="_on_dialog_trigger_body_entered"]
 
 [editable path="AdventurerNPC"]
 [editable path="stallRed"]

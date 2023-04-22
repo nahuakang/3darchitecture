@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=3 format=3 uid="uid://bpxrlogv05gg4"]
+
+[ext_resource type="Script" path="res://dialogue.gd" id="1_0sf3g"]
+[ext_resource type="Texture2D" uid="uid://crgxjhkql7v2n" path="res://BlockCharacters/Faces/face_adventurer.png" id="1_44wym"]
+
+[resource]
+script = ExtResource("1_0sf3g")
+avatar_texture = ExtResource("1_44wym")
+dialogue_slides = Array[String](["Psst...I got some fruits for ya!", "Look around and choose a fruit.", "When you're ready, just click!"])
