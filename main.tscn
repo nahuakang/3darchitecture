@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://dd5n5b1krrxfl"]
+[gd_scene load_steps=28 format=3 uid="uid://dd5n5b1krrxfl"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_o1ap8"]
 [ext_resource type="Texture2D" uid="uid://crgxjhkql7v2n" path="res://BlockCharacters/Faces/face_adventurer.png" id="2_3wyw2"]
@@ -11,7 +11,14 @@
 [ext_resource type="Script" path="res://food_label.gd" id="7_wfqey"]
 [ext_resource type="PackedScene" uid="uid://bif76h006jp0l" path="res://FoodKit/Models/banana.glb" id="8_al7l7"]
 [ext_resource type="PackedScene" uid="uid://8burpcnuyb46" path="res://FoodKit/Models/cherries.glb" id="9_mqchk"]
+[ext_resource type="Texture2D" uid="uid://dg2h3802r41h8" path="res://BlockCharacters/Skins/Advanced/skin_adventurer.png" id="9_su7h1"]
 [ext_resource type="PackedScene" uid="uid://d2h26gv7tfhi1" path="res://FoodKit/Models/lemon.glb" id="10_juf5a"]
+[ext_resource type="Texture2D" uid="uid://ycpxtt1oy0yy" path="res://BlockCharacters/Skins/Advanced/skin_woman.png" id="14_iitp3"]
+[ext_resource type="PackedScene" uid="uid://d0ks7186t1c2b" path="res://FoodKit/Models/honey.glb" id="15_jpi65"]
+[ext_resource type="Resource" uid="uid://dahhmncxdrpv3" path="res://Dialogues/savory_chat.tres" id="15_n1rdl"]
+[ext_resource type="PackedScene" uid="uid://c5o0ds8dachwa" path="res://FoodKit/Models/chocolate.glb" id="16_700dt"]
+[ext_resource type="PackedScene" uid="uid://bxnwuefj4hk45" path="res://FoodKit/Models/donut.glb" id="17_3u3fl"]
+[ext_resource type="PackedScene" uid="uid://bg7l32f066vu2" path="res://FoodKit/Models/fries.glb" id="18_81ed7"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_bwon2"]
 size = Vector2(10, 10)
@@ -30,6 +37,12 @@ base_font = ExtResource("3_4ee5j")
 
 [sub_resource type="FontVariation" id="FontVariation_rgga2"]
 base_font = ExtResource("3_4ee5j")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tqafb"]
+albedo_texture = ExtResource("9_su7h1")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qgkd6"]
+albedo_texture = ExtResource("14_iitp3")
 
 [node name="Main" type="Node3D"]
 
@@ -154,6 +167,24 @@ shadow_enabled = true
 
 [node name="FoodQuiz" parent="." instance=ExtResource("6_3ajlw")]
 
+[node name="Body1" parent="FoodQuiz/AdventurerNPC" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tqafb")
+
+[node name="Head1" parent="FoodQuiz/AdventurerNPC" index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tqafb")
+
+[node name="ArmLeft1" parent="FoodQuiz/AdventurerNPC" index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tqafb")
+
+[node name="ArmRight1" parent="FoodQuiz/AdventurerNPC" index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tqafb")
+
+[node name="LegLeft1" parent="FoodQuiz/AdventurerNPC" index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tqafb")
+
+[node name="LegRight1" parent="FoodQuiz/AdventurerNPC" index="5"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tqafb")
+
 [node name="Food" parent="FoodQuiz" index="3"]
 food_name = "apple"
 
@@ -175,6 +206,56 @@ food_name = "lemon"
 
 [node name="lemon" parent="FoodQuiz/Food3" index="2" instance=ExtResource("10_juf5a")]
 
+[node name="FoodQuiz2" parent="." instance=ExtResource("6_3ajlw")]
+transform = Transform3D(0.682203, 0, 0.731163, 0, 1, 0, -0.731163, 0, 0.682203, -2.96655, -2.38419e-07, 0.0825176)
+_adventurer_npc_texture = ExtResource("14_iitp3")
+_dialogue = ExtResource("15_n1rdl")
+
+[node name="Body1" parent="FoodQuiz2/AdventurerNPC" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_qgkd6")
+
+[node name="Head1" parent="FoodQuiz2/AdventurerNPC" index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_qgkd6")
+
+[node name="ArmLeft1" parent="FoodQuiz2/AdventurerNPC" index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_qgkd6")
+
+[node name="ArmRight1" parent="FoodQuiz2/AdventurerNPC" index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_qgkd6")
+
+[node name="LegLeft1" parent="FoodQuiz2/AdventurerNPC" index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_qgkd6")
+
+[node name="LegRight1" parent="FoodQuiz2/AdventurerNPC" index="5"]
+surface_material_override/0 = SubResource("StandardMaterial3D_qgkd6")
+
+[node name="Food" parent="FoodQuiz2" index="3"]
+food_name = "honey"
+
+[node name="honey" parent="FoodQuiz2/Food" index="2" instance=ExtResource("15_jpi65")]
+transform = Transform3D(0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 0, -0.0906858, 0)
+
+[node name="Food4" parent="FoodQuiz2" index="4"]
+food_name = "chocolate"
+
+[node name="chocolate" parent="FoodQuiz2/Food4" index="2" instance=ExtResource("16_700dt")]
+transform = Transform3D(-0.0122944, 0.200867, 0.979542, 0.975222, 0.218809, -0.0326294, -0.220887, 0.954869, -0.19858, 0, 0, 0)
+
+[node name="Food2" parent="FoodQuiz2" index="5"]
+food_name = "donut"
+
+[node name="donut" parent="FoodQuiz2/Food2" index="2" instance=ExtResource("17_3u3fl")]
+transform = Transform3D(0.981167, -0.191308, -0.0267047, 0.0955231, 0.60071, -0.79374, 0.167891, 0.77624, 0.607671, 0, 0, 0)
+
+[node name="Food3" parent="FoodQuiz2" index="6"]
+food_name = "fries"
+
+[node name="fries" parent="FoodQuiz2/Food3" index="2" instance=ExtResource("18_81ed7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.104761, 0)
+
 [editable path="FoodQuiz"]
 [editable path="FoodQuiz/AdventurerNPC"]
 [editable path="FoodQuiz/stallRed"]
+[editable path="FoodQuiz2"]
+[editable path="FoodQuiz2/AdventurerNPC"]
+[editable path="FoodQuiz2/stallRed"]

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=3 format=3 uid="uid://dahhmncxdrpv3"]
+
+[ext_resource type="Script" path="res://dialogue.gd" id="1_i68m4"]
+[ext_resource type="Texture2D" uid="uid://n15apemd1xpt" path="res://BlockCharacters/Faces/face_woman.png" id="1_mtjm6"]
+
+[resource]
+script = ExtResource("1_i68m4")
+avatar_texture = ExtResource("1_mtjm6")
+dialogue_slides = Array[String](["Hola!", "Here are some savory items!", "Click to see info!"])
