@@ -1,13 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://bsvum51xsi0y"]
+[gd_scene load_steps=3 format=3 uid="uid://bsvum51xsi0y"]
+
+[ext_resource type="Script" path="res://food.gd" id="1_8p3a5"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_b3tir"]
 radius = 0.170918
 
 [node name="Food" type="Area3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.31942, 1.14057, 0.1867)
+script = ExtResource("1_8p3a5")
 
 [node name="SpotLight3D" type="SpotLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.695687, 0.718345, 0, -0.718345, 0.695687, 0, 0.662344, 0.504415)
+visible = false
 light_energy = 2.0
 spot_range = 1.75
 spot_attenuation = 1.5
