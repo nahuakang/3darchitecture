@@ -15,4 +15,4 @@ func _ready() -> void:
 
 
 func _on_dialog_trigger_body_entered(body: Node3D) -> void:
-	GameEvents.emit_signal("dialog_initiated")
+	GameEvents.emit_signal("dialog_initiated", _dialogue)

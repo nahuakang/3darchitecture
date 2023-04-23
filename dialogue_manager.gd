@@ -28,5 +28,13 @@ func show_slide() -> void:
 	_dialog_text.text = _current_dialogue.dialogue_slides[_current_slide_index]
 
 
-func _on_dialog_initiated() -> void:
-	print("Dialog initiated")
+func _on_dialog_initiated(dialogue: Dialogue) -> void:
+	prepare_dialogue(dialogue)
+	show_slide()
+
+
+func prepare_dialogue(dialogue: Dialogue) -> void:
+	_avatar.texture = dialogue.avatar_texture
+	_current_slide_index = 0
+	_current_dialogue = dialogue
+	self.visible = true

@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://dd5n5b1krrxfl"]
+[gd_scene load_steps=12 format=3 uid="uid://dd5n5b1krrxfl"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_o1ap8"]
 [ext_resource type="Texture2D" uid="uid://crgxjhkql7v2n" path="res://BlockCharacters/Faces/face_adventurer.png" id="2_3wyw2"]
@@ -6,8 +6,6 @@
 [ext_resource type="FontFile" uid="uid://cms5303v0rjh3" path="res://PoetsenOne-Regular.ttf" id="3_4ee5j"]
 [ext_resource type="Resource" uid="uid://dk1kivws61pb4" path="res://Dialogues/intro.tres" id="3_gjhhe"]
 [ext_resource type="PackedScene" uid="uid://f3sv1abwp1ln" path="res://food_quiz.tscn" id="6_3ajlw"]
-[ext_resource type="Texture2D" uid="uid://7mxyjgif7iny" path="res://BlockCharacters/Skins/Advanced/skin_man.png" id="7_fml6c"]
-[ext_resource type="Resource" uid="uid://bpxrlogv05gg4" path="res://Dialogues/fruit_chat.tres" id="8_fsoou"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_bwon2"]
 size = Vector2(10, 10)
@@ -126,8 +124,6 @@ transform = Transform3D(1, 0, 0, 0, 0.906256, 0.422729, 0, -0.422729, 0.906256, 
 shadow_enabled = true
 
 [node name="FoodQuiz" parent="." instance=ExtResource("6_3ajlw")]
-_adventurer_npc_texture = ExtResource("7_fml6c")
-_dialogue = ExtResource("8_fsoou")
 
 [editable path="FoodQuiz"]
 [editable path="FoodQuiz/AdventurerNPC"]

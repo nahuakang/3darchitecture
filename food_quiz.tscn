@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://f3sv1abwp1ln"]
+[gd_scene load_steps=10 format=3 uid="uid://f3sv1abwp1ln"]
 
 [ext_resource type="Script" path="res://food_quiz.gd" id="1_cm7jp"]
 [ext_resource type="PackedScene" uid="uid://d03xkgllxoime" path="res://BlockCharacters/Models/Non-rigged/glTF/advancedCharacter.gltf" id="1_ygr1a"]
 [ext_resource type="Texture2D" uid="uid://dg2h3802r41h8" path="res://BlockCharacters/Skins/Advanced/skin_adventurer.png" id="2_fdfg5"]
+[ext_resource type="Resource" uid="uid://bpxrlogv05gg4" path="res://Dialogues/fruit_chat.tres" id="3_5vm0f"]
 [ext_resource type="PackedScene" uid="uid://dxh4jhpxiwgg8" path="res://FoodKit/Models/avocado.glb" id="3_ms6fc"]
 [ext_resource type="PackedScene" uid="uid://cblx604tmf555" path="res://FoodKit/Models/apple.glb" id="4_fbr0a"]
 [ext_resource type="PackedScene" uid="uid://bp1x8t1577feb" path="res://FantasyTownKit/Models/stallRed.glb" id="5_0g6qv"]
@@ -18,6 +19,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.97314, 0, -1.61077)
 script = ExtResource("1_cm7jp")
 _adventurer_npc = NodePath("AdventurerNPC")
 _adventurer_npc_texture = ExtResource("2_fdfg5")
+_dialogue = ExtResource("3_5vm0f")
 
 [node name="AdventurerNPC" parent="." instance=ExtResource("1_ygr1a")]
 transform = Transform3D(0.825626, 0, 0.564218, 0, 1, 0, -0.564218, 0, 0.825626, -1.97783, -4.76837e-07, 0.47273)
