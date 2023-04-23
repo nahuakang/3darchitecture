@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsvum51xsi0y"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_b3tir"]
+radius = 0.170918
+
+[node name="Food" type="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.31942, 1.14057, 0.1867)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.695687, 0.718345, 0, -0.718345, 0.695687, 0, 0.662344, 0.504415)
+light_energy = 2.0
+spot_range = 1.75
+spot_attenuation = 1.5
+spot_angle = 15.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_b3tir")

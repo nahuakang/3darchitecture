@@ -1,12 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://f3sv1abwp1ln"]
+[gd_scene load_steps=9 format=3 uid="uid://f3sv1abwp1ln"]
 
 [ext_resource type="Script" path="res://food_quiz.gd" id="1_cm7jp"]
 [ext_resource type="PackedScene" uid="uid://d03xkgllxoime" path="res://BlockCharacters/Models/Non-rigged/glTF/advancedCharacter.gltf" id="1_ygr1a"]
 [ext_resource type="Texture2D" uid="uid://dg2h3802r41h8" path="res://BlockCharacters/Skins/Advanced/skin_adventurer.png" id="2_fdfg5"]
 [ext_resource type="Resource" uid="uid://bpxrlogv05gg4" path="res://Dialogues/fruit_chat.tres" id="3_5vm0f"]
-[ext_resource type="PackedScene" uid="uid://dxh4jhpxiwgg8" path="res://FoodKit/Models/avocado.glb" id="3_ms6fc"]
-[ext_resource type="PackedScene" uid="uid://cblx604tmf555" path="res://FoodKit/Models/apple.glb" id="4_fbr0a"]
 [ext_resource type="PackedScene" uid="uid://bp1x8t1577feb" path="res://FantasyTownKit/Models/stallRed.glb" id="5_0g6qv"]
+[ext_resource type="PackedScene" uid="uid://bsvum51xsi0y" path="res://food.tscn" id="6_pwxxw"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8aony"]
 albedo_texture = ExtResource("2_fdfg5")
@@ -42,12 +41,6 @@ surface_material_override/0 = SubResource("StandardMaterial3D_8aony")
 [node name="LegRight1" parent="AdventurerNPC" index="5"]
 surface_material_override/0 = SubResource("StandardMaterial3D_8aony")
 
-[node name="avocado" parent="." instance=ExtResource("3_ms6fc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0183899, 0.8224, 0.23108)
-
-[node name="apple" parent="." instance=ExtResource("4_fbr0a")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.31942, 0.8224, 0.1867)
-
 [node name="stallRed" parent="." instance=ExtResource("5_0g6qv")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
 
@@ -56,6 +49,18 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="DialogTrigger"]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0.440631, 1.08866)
 shape = SubResource("BoxShape3D_tw430")
+
+[node name="Food" parent="." instance=ExtResource("6_pwxxw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.252043, 1.14057, 0.1867)
+
+[node name="Food4" parent="." instance=ExtResource("6_pwxxw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.701223, 1.14057, 0.1867)
+
+[node name="Food2" parent="." instance=ExtResource("6_pwxxw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.182078, 1.14434, 0.183036)
+
+[node name="Food3" parent="." instance=ExtResource("6_pwxxw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.638744, 1.14434, 0.183036)
 
 [connection signal="body_entered" from="DialogTrigger" to="." method="_on_dialog_trigger_body_entered"]
 
